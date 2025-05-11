@@ -23,7 +23,7 @@ The goal is to develop a model that efficiently captures both spatial and tempor
 ## 📚 Literature Summary
 
 - *CNNs* are effective at capturing local patterns in audio signals.
-- *GRU, especially **Bidirectional GRU (BiGRU)*, models forward and backward dependencies in time-series data.
+- GRU, especially *Bidirectional GRU (BiGRU)*, models forward and backward dependencies in time-series data.
 - Combining CNNs and RNNs has shown strong performance in speech recognition tasks.
 
 
@@ -42,7 +42,7 @@ The goal is to develop a model that efficiently captures both spatial and tempor
 
 - Raw audio was converted to MFCC features.
 - Spectrogram parameters used:
-  - n_fft = 384, hop_length = 160, win_length = 256
+- n_fft = 384, hop_length = 160, win_length = 256
 - All MFCC features were standardized using mean-std normalization.
 
 
@@ -62,10 +62,10 @@ Conv2d(32 → 32, kernel_size=(11, 21), stride=(1, 2), padding=(5, 10))
 
 ### 🔹 BiGRU Layers:
 
-python
+```python
 BiGRU(input_size=Frequency, hidden_size=128, num_layers=2, bidirectional=True)
 → Dropout → Fully Connected → Softmax
-
+```
 
 
 
@@ -97,17 +97,17 @@ BiGRU(input_size=Frequency, hidden_size=128, num_layers=2, bidirectional=True)
 * Scikit-learn
 * Matplotlib / Seaborn
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 
 
 ## 🚀 Run the Project
 
-bash
+```bash
 python main.py
-
+```
 
 
 
