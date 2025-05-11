@@ -83,8 +83,8 @@ BiGRU(input_size=Frequency, hidden_size=128, num_layers=2, bidirectional=True)
 ![Image](https://github.com/user-attachments/assets/73817ca4-7b49-40c1-9c3c-b75f2474b09d)
 
 **Confusion Matrix and ROC Curve:**                               
-<img src="https://github.com/user-attachments/assets/fa3630b8-df8d-4d63-aa17-529e7764e58f" width="500"/>
-<img src="https://github.com/user-attachments/assets/77063eae-5f5f-4d0e-91a2-ac16f225b605" width="500"/>
+<img src="https://github.com/user-attachments/assets/fa3630b8-df8d-4d63-aa17-529e7764e58f" width="450"/>
+<img src="https://github.com/user-attachments/assets/77063eae-5f5f-4d0e-91a2-ac16f225b605" width="450"/>
 
 
 
